@@ -18,13 +18,6 @@ apresentação com a exploração dos dados.
 ## ◼ EXTRAS
 ### ⇨ Utilize consultas com diversidade de operações: filtragem múltipla, agregação, subconsultas, ordenação, joins, etc.
 
-## Colaboradores 
-* Bruno Henrique da Silva Travessa
-* Brandon Jesus
-* Diego Fernando Reis
-* Marcos Antônio Vieira Clementino
-* Ronaldo Rodrigues de Figueiredo
-
  <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
