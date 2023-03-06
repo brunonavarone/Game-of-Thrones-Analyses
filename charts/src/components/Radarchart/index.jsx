@@ -1,10 +1,21 @@
 import ApexChart from 'react-apexcharts';
+import { useState,useEffect } from 'react';
+import axios from 'axios';
 
 function Radarchart(){
+  const [post,setPost] = useState();
+
+  useEffect(() => {
+    axios.get('http://localhost:8800/epseason')
+    .then((res) => setPost(res.data))
+    .catch((err) => console.log(err))
+  });
 
   const series = [{
     name: 'Series 1',
-    data: [80, 50, 30, 40, 100, 20],
+    data: post?.map((e) => {
+      return e.Quantidade_de_ep;
+    }),
   }]
 
   const options = {
@@ -16,7 +27,9 @@ function Radarchart(){
       text: 'Basic Radar Chart'
     },
     xaxis: {
-      categories: ['January', 'February', 'March', 'April', 'May', 'June']
+      categories: post?.map((e) => {
+        return e.season;
+      })
     }
   }
 
