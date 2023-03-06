@@ -50,4 +50,3 @@ teste ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-a [all-contributors](https://github.com/all-contributors/all-contributors) b!
