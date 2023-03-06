@@ -2,10 +2,15 @@
 
 [![Resilia Logo](https://www.resilia.com.br/wp-content/uploads/2021/08/logo.png)](https://www.resilia.com.br/)
 
+
+
 # Projeto em Grupo — Módulo 4 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
+
 ## ◼ Sobre o Projeto
 
 * Nesse projeto você e sua squad deverão montar
@@ -13,14 +18,20 @@ um dashboard com base no conjunto de dados
 escolhidos por vocês, a fim de realizar uma
 apresentação com a exploração dos dados.
 
+
+
 ## ◼ Objetivos:
 * Ideação/Brainstorm sobre perguntas que podem ser respondidas pelos dados
 * Estruturar o esquema do banco de dados
 * Realizar carga no banco
 * Criar visualizações dos dados com base nas perguntas elaboradas
 
+
+
 ## ◼ EXTRAS
 ### ⇨ Utilize consultas com diversidade de operações: filtragem múltipla, agregação, subconsultas, ordenação, joins, etc.
+
+
 
 ## Colaboradores ✨
 
