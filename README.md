@@ -1,3 +1,7 @@
+<div align="center">
+
+[![Resilia Logo](https://www.resilia.com.br/wp-content/uploads/2021/08/logo.png)](https://www.resilia.com.br/)
+
 # Projeto em Grupo — Módulo 4 — [Resilia](https://www.resilia.com.br/)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
