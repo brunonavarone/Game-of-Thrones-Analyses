@@ -14,14 +14,7 @@ apresentação com a exploração dos dados.
 
 
 
-### ◼ <samp>Objetivos</samp>
-
-<details>
-<b><summary>Ideação/Brainstorm sobre perguntas que podem ser respondidas pelos dados</b></summary>
-: Análise
-o conjunto de dados selecionado para que as
-perguntas sejam pertinentes.
-
+### ◼ Objetivos
 * Estruturar o esquema do banco de dados
 * Realizar carga no banco
 * Criar visualizações dos dados com base nas perguntas elaboradas
