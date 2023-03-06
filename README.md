@@ -1,6 +1,6 @@
 # Projeto em Grupo — Módulo 4 — [Resilia](https://www.resilia.com.br/)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## ◼ Sobre o Projeto
 
@@ -35,6 +35,7 @@ apresentação com a exploração dos dados.
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GawrOkayun"><img src="https://avatars.githubusercontent.com/u/115713180?v=4?s=100" width="100px;" alt="GawrOkayun"/><br /><sub><b>GawrOkayun</b></sub></a><br /><a href="https://github.com/Diego-Fernando-Reis/Game-of-Thrones-Analyses/commits?author=GawrOkayun" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Diego-Fernando-Reis"><img src="https://avatars.githubusercontent.com/u/103158387?v=4?s=100" width="100px;" alt="Diego Fernando Reis Batista"/><br /><sub><b>Diego Fernando Reis Batista</b></sub></a><br /><a href="https://github.com/Diego-Fernando-Reis/Game-of-Thrones-Analyses/commits?author=Diego-Fernando-Reis" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
