@@ -18,6 +18,8 @@ apresentação com a exploração dos dados.
 ## ◼ EXTRAS
 ### ⇨ Utilize consultas com diversidade de operações: filtragem múltipla, agregação, subconsultas, ordenação, joins, etc.
 
+## Contributors ✨
+
  <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -34,8 +36,6 @@ apresentação com a exploração dos dados.
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## Contributors ✨
 
 teste ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
