@@ -19,7 +19,7 @@ apresentação com a exploração dos dados.
 <details>
 <summary><b>Ideação/Brainstorm sobre perguntas que
 podem ser respondidas pelos dados</b></summary>
-Análise o conjunto de dados selecionado para que as perguntas sejam pertinentes.
+Análise o conjunto de dados selecionado para as perguntas serem pertinentes.
 </details>
 <details>
 <summary><b>Estruturar o esquema do banco de dados</b></summary>
@@ -28,6 +28,10 @@ A partir da avaliação do conjunto de dados fornecidos, modelar as tabelas do b
 <details>
 <summary><b>Realizar carga no banco</b></summary>
 Com base no esquema desenhado e criado, subir os dados presentes nos arquivos para o banco de dados a fim de verificar o funcionamento da solução encontrada.
+</details>
+<details>
+<summary><b>Criar visualizações dos dados com base nas perguntas elaboradas</b></summary>
+Aqui vocês podem usar planilhas (Excel / Google), Metabase, Tableau, Power Bi, etc.
 </details>
 
 
