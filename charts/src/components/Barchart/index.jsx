@@ -15,8 +15,6 @@ function Barchart(){
     .catch((erro) => console.log(erro));
   })
 
-  console.log(post)
-
 
   const series = [{
     data: post?.map((e)=>{

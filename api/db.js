@@ -1,8 +1,12 @@
-import mysql from 'mysql';
+import mysql from 'mssql';
 
-export const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "gotanalyses"
+export const db = await mysql.connect({
+  server: "mysqlservergot.database.windows.net",
+  user: "azureuser",
+  password: "1229918991Diego*",
+  database: "mySampleDatabase",
+  options:{
+    encrypt: true,
+  },
+  port: 1433
 })

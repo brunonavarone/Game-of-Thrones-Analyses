@@ -6,27 +6,27 @@ export const regiao = (_, res) =>{
   db.query(regiao, (err, data) =>{
     if(err) return res.json(err);
 
-    return res.status(200).json(data);
+    return res.status(200).json(data.recordset);
   });
 };
 
 export const aparicoes = (_, res) =>{
-  const aparicoes = "SELECT Characters as personagens, episodes_appeared/(last_appearance - first_appearance) as media_aparicoes_por_ano FROM personagens WHERE last_appearance - first_appearance <> 0 LIMIT 10;";
+  const aparicoes = "SELECT TOP 10 Characters as personagens, episodes_appeared/(last_appearance - first_appearance) as media_aparicoes_por_ano FROM personagens WHERE last_appearance - first_appearance <> 0;";
 
   db.query(aparicoes, (err, data) =>{
     if(err) return res.json(err);
 
-    return res.status(200).json(data);
+    return res.status(200).json(data.recordset);
   });
 };
 
 export const melhoresEp = (_, res) =>{
-  const melhoresEp = "SELECT season, episode, Rating FROM episódios ORDER BY Rating DESC limit 13;";
+  const melhoresEp = "SELECT TOP 13 season, episode, Rating FROM episódios ORDER BY Rating DESC;";
 
   db.query(melhoresEp, (err, data) =>{
     if(err) return res.json(err);
 
-    return res.status(200).json(data);
+    return res.status(200).json(data.recordset);
   });
 };
 
@@ -39,7 +39,7 @@ export const tempoEp = (_, res) =>{
   db.query(tempoEp, (err, data) =>{
     if(err) return res.json(err);
 
-    return res.status(200).json(data);
+    return res.status(200).json(data.recordset);
   });
 };
 
@@ -49,6 +49,6 @@ export const epSeason = (_, res) =>{
   db.query(epSeason, (err, data) =>{
     if(err) return res.json(err);
 
-    return res.status(200).json(data);
+    return res.status(200).json(data.recordset);
   });
 };
