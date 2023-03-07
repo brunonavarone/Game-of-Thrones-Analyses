@@ -16,10 +16,9 @@ apresentação com a exploração dos dados.
 
   ##  <strong><samp>Objetivos</samp></strong>
 
-<details>
-* Estruturar o esquema do banco de dados
-* Realizar carga no banco
-* Criar visualizações dos dados com base nas perguntas elaboradas
+Ideação/Brainstorm sobre perguntas que
+podem ser respondidas pelos dados<details>
+
 
 </details>
 
