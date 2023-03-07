@@ -14,13 +14,14 @@ apresentação com a exploração dos dados.
 
 
 
-  ##  <strong><samp>Objetivos</samp></strong>
+  ##  <strong><samp>◼ Objetivos</samp></strong>
 
 <details>
 <summary><b>Ideação/Brainstorm sobre perguntas que
 podem ser respondidas pelos dados</b></summary>
-
-
+Análise
+o conjunto de dados selecionado para que as
+perguntas sejam pertinentes.
 </details>
 
 
