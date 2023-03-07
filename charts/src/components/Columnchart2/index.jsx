@@ -8,14 +8,12 @@ function Columnchart(){
 
   useEffect(()=> {
     axios
-    .get('http://localhost:8800/melhoresEp')
+    .get('http://localhost:8800/melhoresep')
     .then((resposta) => {
       setPost(resposta.data)
     })
     .catch((erro) => console.log(erro));
   })
-
-  console.log(post);
 
   
 

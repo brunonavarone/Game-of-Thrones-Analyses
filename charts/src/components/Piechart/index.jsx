@@ -15,7 +15,7 @@ function Piechart(){
     .catch((erro) => console.log(erro));
   })
 
-  console.log(post);
+  console.log(post)
 
   let a = post?.map((e) => {
     return e.maior60;
@@ -31,8 +31,7 @@ function Piechart(){
 
   let series = [parseInt(a),parseInt(b),parseInt(c)]
 
-
-  console.log('series: ' + series)
+  console.log('series :' + a)
 
   const options = {
       chart: {

@@ -15,7 +15,7 @@ function Columnchart(){
     .catch((erro) => console.log(erro));
   })
 
-  console.log(post);
+  
 
   
 
@@ -47,7 +47,8 @@ function Columnchart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="bar" width={640} height={480}/>
+      <ApexChart options={options} series={series} type="bar" width={640} height={480}/>
+    
   )
 }
 
