@@ -16,8 +16,9 @@ apresentação com a exploração dos dados.
 
   ##  <strong><samp>Objetivos</samp></strong>
 
-Ideação/Brainstorm sobre perguntas que
-podem ser respondidas pelos dados<details>
+<details>
+<summary><b>Ideação/Brainstorm sobre perguntas que
+podem ser respondidas pelos dados</b></summary>
 
 
 </details>
