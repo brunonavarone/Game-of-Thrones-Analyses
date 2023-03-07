@@ -14,20 +14,51 @@ function App() {
     <>
 
     <div className="main_container">  
-      <div className="gotlogo"> 
-        <img src={img1} alt="Logo" />
-      </div>
+      <img src={img1} alt="Logo" /> 
       <h1>BASE DE DADOS</h1>
       <div className="container_perguntas">
+        <ul>
+          <a href="#grafico1"><li>Pergunta 1</li></a>
+          <a href="#grafico2"><li>Pergunta 2</li></a>
+          <a href="#grafico3"><li>Pergunta 3</li></a>
+          <a href="#grafico4"><li>Pergunta 4</li></a>
+          <a href="#grafico5"><li>Pergunta 5</li></a>
+          <a href="#grafico6"><li>Pergunta 6</li></a>
+          <a href="#grafico7"><li>Pergunta 7</li></a>
+          <a href="#grafico8"><li>Pergunta 8</li></a>
+        </ul>
       </div>
     </div>
 
       <div className="graficos">
-        <Columnchart />
-        <Barchart />
+        <section id="grafico1">
+          <p>Quais são os melhores episódios segundo a nota da crítica?</p>
+            <Columnchart  />
+          <p>Resposta:</p>
+        </section>
+        <section id="grafico2">
+          <p>Insira a pergunta 1 aqui</p>
+            <Barchart />
+          <p>Resposta da pergunta</p>
+        </section>
+        <section id="grafico3">
         <Columnchart2 />
+        </section>
+        <section id="grafico4">
         <Piechart />
-        <Radarchart />      
+        </section>
+        <section id="grafico5">
+          <Radarchart/>
+        </section> 
+        <section id="grafico6">
+          <Radarchart/>
+        </section> 
+        <section id="grafico7">
+          <Radarchart/>
+        </section>  
+        <section id="grafico8">
+          <Radarchart/>
+        </section>      
       </div>
 
     <footer>

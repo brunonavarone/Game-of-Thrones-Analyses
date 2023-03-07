@@ -20,7 +20,7 @@ function Columnchart(){
   
 
   const series = [{
-    name: 'Servings',
+    name: 'Teste',
     data: post?.map((e) => {
       return e.Quantidade
     })
