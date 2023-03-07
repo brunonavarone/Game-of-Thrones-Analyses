@@ -14,7 +14,7 @@ apresentação com a exploração dos dados.
 
 
 
-###  <samp>Objetivos</samp>
+ ###  <strong><samp>Objetivos</samp></strong>
 
 <details>
 * Estruturar o esquema do banco de dados
