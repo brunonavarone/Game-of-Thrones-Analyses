@@ -19,9 +19,12 @@ apresentação com a exploração dos dados.
 <details>
 <summary><b>Ideação/Brainstorm sobre perguntas que
 podem ser respondidas pelos dados</b></summary>
-Análise
-o conjunto de dados selecionado para que as
+Análise o conjunto de dados selecionado para que as
 perguntas sejam pertinentes.
+</details>
+<details>
+<summary><b>Estruturar o esquema do banco de dados</b></summary>
+A partir da avaliação do conjunto de dados fornecidos, modelar as tabelas do banco. Note que não é necessário mapear todas as colunas de todas as tabelas. Mantenha sua implementação simples construindo um modelo que atende às perguntas elaboradas pelo grupo.
 </details>
 
 
