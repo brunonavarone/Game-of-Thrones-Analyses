@@ -14,11 +14,16 @@ apresentação com a exploração dos dados.
 
 
 
-### ◼ Objetivos
+</details>
+
+###  <samp>Objetivos</samp>
+
+<details>
 * Estruturar o esquema do banco de dados
 * Realizar carga no banco
 * Criar visualizações dos dados com base nas perguntas elaboradas
 
+</details>
 
 
 ## ◼ EXTRAS
