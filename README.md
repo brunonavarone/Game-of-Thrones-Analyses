@@ -14,8 +14,6 @@ apresentação com a exploração dos dados.
 
 
 
-</details>
-
 ###  <samp>Objetivos</samp>
 
 <details>
