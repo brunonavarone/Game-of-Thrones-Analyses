@@ -52,3 +52,13 @@ export const epSeason = (_, res) =>{
     return res.status(200).json(data.recordset);
   });
 };
+
+export const melhoresSeasons = (_, res) =>{
+  const melhoresSeasons = `SELECT season, avg(Rating) as media from episódios group by Season order by media desc;`;
+
+  db.query(melhoresSeasons, (err, data) =>{
+    if(err) return res.json(err);
+
+    return res.status(200).json(data.recordset);
+  });
+};
