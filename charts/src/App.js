@@ -4,6 +4,7 @@ import Radarchart from "./components/Radarchart/index.jsx";
 import Columnchart2 from "./components/Columnchart2/index.jsx";
 import Columnchart from "./components/Columnchart/index.jsx";
 import Piechart from "./components/Piechart/index.jsx";
+import Radarchart_2 from "./components/Radarchart_2/index.jsx";
 
 import img1 from "./img/gotlogoprateada.png"
 import img2 from "./img/got-footer.svg"
@@ -11,7 +12,6 @@ import img2 from "./img/got-footer.svg"
 function App() {
   return (
     <>
-
     <div className="main_container">  
       <img src={img1} alt="Logo" /> 
       <h1>BASE DE DADOS</h1>
@@ -56,13 +56,18 @@ function App() {
           <Radarchart class='general_Rules'/>
         </section>  
         <section id="grafico8">
+<<<<<<< HEAD
           <Radarchart class='general_Rules'/>
+=======
+          <Radarchart_2/>
+>>>>>>> fb81d6761826ee7fb34e5e54bf9476887b881b33
         </section>      
       </div>
 
       <footer>
         <img src={img2} alt="Logo" />
       </footer>
+
 
     </>
   );
