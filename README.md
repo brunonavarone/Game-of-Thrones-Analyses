@@ -5,7 +5,7 @@
 # Projeto em Grupo — Módulo 4 — Visualizando a situação
 
 
-## ◼ Sobre o Projeto
+## ◼ Sobre o Projeto 
 
 * Nesse projeto você e sua squad deverão montar
 um dashboard com base no conjunto de dados
