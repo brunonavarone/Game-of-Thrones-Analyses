@@ -1,5 +1,5 @@
 import express from 'express';
-import { regiao, aparicoes,melhoresEp,tempoEp,epSeason, melhoresSeasons } from '../controllers/user.js'
+import { regiao, aparicoes, melhoresEp, tempoEp, epSeason, melhoresSeasons} from '../controllers/user.js'
 
 const router = express.Router()
 
