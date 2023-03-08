@@ -7,7 +7,6 @@ import Piechart from "./components/Piechart/index.jsx";
 
 import img1 from "./img/gotlogoprateada.png"
 import img2 from "./img/got-footer.svg"
-import img3 from "./img/basededados.png"
 
 function App() {
   return (
@@ -33,37 +32,37 @@ function App() {
       <div className="graficos">
         <section id="grafico1">
           <p>Quais são os melhores episódios segundo a nota da crítica?</p>
-            <Columnchart  />
+            <Columnchart  class='general_Rules'/>
           <p>Resposta:</p>
         </section>
         <section id="grafico2">
           <p>Insira a pergunta 1 aqui</p>
-            <Barchart />
+            <Barchart class='general_Rules'/>
           <p>Resposta da pergunta</p>
         </section>
         <section id="grafico3">
-        <Columnchart2 />
+        <Columnchart2 class='general_Rules'/>
         </section>
         <section id="grafico4">
-        <Piechart />
+        <Piechart class='general_Rules'/>
         </section>
         <section id="grafico5">
-          <Radarchart/>
+          <Radarchart class='general_Rules'/>
         </section> 
         <section id="grafico6">
-          <Radarchart/>
+          <Radarchart class='general_Rules'/>
         </section> 
         <section id="grafico7">
-          <Radarchart/>
+          <Radarchart class='general_Rules'/>
         </section>  
         <section id="grafico8">
-          <Radarchart/>
+          <Radarchart class='general_Rules'/>
         </section>      
       </div>
 
-    <footer>
-      <img src={img2} alt="Logo" />
-    </footer>
+      <footer>
+        <img src={img2} alt="Logo" />
+      </footer>
 
     </>
   );

@@ -37,7 +37,7 @@ function Barchart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="bar" width={640} height={480}/>
+    <ApexChart options={options} series={series} type="bar" height={480}/>
   )
 }
 

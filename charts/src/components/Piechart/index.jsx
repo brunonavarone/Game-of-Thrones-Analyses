@@ -35,15 +35,15 @@ function Piechart(){
 
   const options = {
       chart: {
-        width: 380,
-        type: 'pie',
+        width: 400,
+        type: 'pie'
       },
       labels: ['Maior que 60', 'Entre 55 e 60', 'Menor que 55'],
       responsive: [{
         breakpoint: 480,
         options: {
           chart: {
-            width: 200
+            width: 400
           },
           legend: {
             position: 'bottom'
@@ -53,7 +53,7 @@ function Piechart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="pie" width={640} height={480}/>
+    <ApexChart class='piechart' options={options} series={series} height={480} type="pie"/>
   )
 }
 

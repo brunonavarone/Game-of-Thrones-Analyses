@@ -34,7 +34,7 @@ function Radarchart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="radar" width={640} height={480}/>
+    <ApexChart options={options} series={series} type="radar" height={480}/>
   )
 }
 

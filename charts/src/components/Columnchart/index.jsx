@@ -27,8 +27,13 @@ function Columnchart(){
   }]
 
   const options = {
+    chart: {
+      height: 'auto'
+    },
     xaxis: {
+      position: "bottom",
       labels: {
+        show: true,
         rotate: -45
       },
       categories: post?.map((e) => {
@@ -42,12 +47,12 @@ function Columnchart(){
       },
       tooltip: {
         enabled: true
-      },
+      }
     }
   }
 
   return(
-      <ApexChart options={options} series={series} type="bar" width={640} height={480}/>
+      <ApexChart options={options} series={series} type="bar"/>
     
   )
 }
