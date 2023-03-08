@@ -4,7 +4,7 @@ import Radarchart from "./components/Radarchart/index.jsx";
 import Columnchart2 from "./components/Columnchart2/index.jsx";
 import Columnchart from "./components/Columnchart/index.jsx";
 import Piechart from "./components/Piechart/index.jsx";
-import Radarchart2 from "./components/Radarchart_2/index.jsx";
+import Radarchart_2 from "./components/Radarchart_2/index.jsx";
 
 import img1 from "./img/gotlogoprateada.png"
 import img2 from "./img/got-footer.svg"
@@ -13,15 +13,6 @@ import img3 from "./img/basededados.png"
 function App() {
   return (
     <>
-<<<<<<< HEAD
-      <Columnchart />
-      <Barchart />
-      <Columnchart2 />
-      <Piechart />
-      <Radarchart />
-      <Radarchart2 />
-=======
-
     <div className="main_container">  
       <img src={img1} alt="Logo" /> 
       <h1>BASE DE DADOS</h1>
@@ -66,7 +57,7 @@ function App() {
           <Radarchart/>
         </section>  
         <section id="grafico8">
-          <Radarchart/>
+          <Radarchart_2/>
         </section>      
       </div>
 
@@ -74,7 +65,7 @@ function App() {
       <img src={img2} alt="Logo" />
     </footer>
 
->>>>>>> 964188c1c9b327996df52166e677157530b8df93
+
     </>
   );
 }

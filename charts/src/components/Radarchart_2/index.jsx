@@ -2,7 +2,7 @@ import ApexChart from 'react-apexcharts';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
 
-function Radarchart2(){
+function Radarchart_2(){
   const [post,setPost] = useState();
 
   useEffect(() => {
@@ -14,7 +14,7 @@ function Radarchart2(){
   const series = [{
     name: 'Series 1',
     data: post?.map((e) => {
-      return e.Quantidade_de_ep;
+      return e.media;
     }),
   }]
 
@@ -38,4 +38,4 @@ function Radarchart2(){
   )
 }
 
-export default Radarchart2;
+export default Radarchart_2;
