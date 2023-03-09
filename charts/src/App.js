@@ -4,10 +4,18 @@ import Radarchart from "./components/Radarchart/index.jsx";
 import Columnchart2 from "./components/Columnchart2/index.jsx";
 import Columnchart from "./components/Columnchart/index.jsx";
 import Piechart from "./components/Piechart/index.jsx";
-import Radarchart_2 from "./components/Radarchart_2/index.jsx";
+import Columnchart3 from "./components/Columnchart3/index.jsx";
 
 import img1 from "./img/gotlogoprateada.png"
 import img2 from "./img/got-footer.svg"
+
+import baratheon_logo from "./img/logos_background/House_Baratheon.svg_.png"
+import greyjoy_logo from "./img/logos_background/House_Greyjoy.svg_.png"
+import martell_logo from "./img/logos_background/House_Martell.svg_-470x470.png"
+import tyrell_logo from "./img/logos_background/House_Tyrell.svg_.png"
+import lannister_logo from "./img/logos_background/lannister.png"
+import targ_logo from "./img/logos_background/Targaryan.png"
+
 
 function App() {
   return (
@@ -15,9 +23,9 @@ function App() {
     <div className="main_container">  
       <img src={img1} alt="Logo" /> 
       <h1>BASE DE DADOS</h1>
-      <div className="container_perguntas">
+      <div className="container_perguntas" id="perguntas">
         <ul>
-          <a href="#grafico1"><li>Pergunta 1</li></a>
+          <a className="circle" href="#grafico1"><li>Pergunta 1</li></a>
           <a href="#grafico2"><li>Pergunta 2</li></a>
           <a href="#grafico3"><li>Pergunta 3</li></a>
           <a href="#grafico4"><li>Pergunta 4</li></a>
@@ -30,45 +38,41 @@ function App() {
     </div>
 
       <div className="graficos">
-        <section id="grafico1">
-          <p>Quais são os melhores episódios segundo a nota da crítica?</p>
-            <Columnchart  class='general_Rules'/>
-          <p>Resposta:</p>
+        <section className="modelo_grafico" id="grafico1">
+          <p>Quantidade de casas por cada região:</p>
+          <Columnchart  class='general_Rules'/>
+          <img src={baratheon_logo} alt="logo baratheon" id="logo_baratheon"></img>
         </section>
-        <section id="grafico2">
-          <p>Insira a pergunta 1 aqui</p>
-            <Barchart class='general_Rules'/>
-          <p>Resposta da pergunta</p>
+        <section className="modelo_grafico" id="grafico2">
+          <p>Quais os 10 personagens que mais apareceram durante toda a série:</p>
+          <Barchart class='general_Rules'/>
+          <img src={greyjoy_logo} alt="logo baratheon" id="logo_greyjoy"></img>
         </section>
-        <section id="grafico3">
-        <Columnchart2 class='general_Rules'/>
+        <section className="modelo_grafico" id="grafico3">
+          <p>Quais os 13 melhores episódios de todas as temporadas:</p>
+          <Columnchart2 class='general_Rules'/>
+          <img src={martell_logo} alt="logo baratheon" id="logo_martell"></img>
         </section>
-        <section id="grafico4">
-        <Piechart class='general_Rules'/>
+        <section className="modelo_grafico" id="grafico4">
+          <p>Episódios com mais de 60min, episódios entre 55 e 60min e episódios com menos de 55min:</p>
+          <Piechart class='general_Rules'/>
+          <img src={tyrell_logo} alt="logo baratheon" id="logo_tyrell"></img>
         </section>
-        <section id="grafico5">
+        <section className="modelo_grafico" id="grafico5">
+          <p>Quantidade de episódios por temporada:</p>
           <Radarchart class='general_Rules'/>
-        </section> 
-        <section id="grafico6">
-          <Radarchart class='general_Rules'/>
-        </section> 
-        <section id="grafico7">
-          <Radarchart class='general_Rules'/>
+          <img src={lannister_logo} alt="logo baratheon" id="logo_lannister"></img>
         </section>  
-        <section id="grafico8">
-<<<<<<< HEAD
-          <Radarchart class='general_Rules'/>
-=======
-          <Radarchart_2/>
->>>>>>> fb81d6761826ee7fb34e5e54bf9476887b881b33
+        <section className="modelo_grafico" id="grafico6">
+          <p>Ordem de temporadas da mais bem avaliada para a pior:</p>
+          <Columnchart3 class='general_Rules'/>
+          <img src={targ_logo} alt="logo baratheon" id="logo_targ"></img>
         </section>      
       </div>
 
       <footer>
-        <img src={img2} alt="Logo" />
+        <img src={img2} alt="Logo"/>
       </footer>
-
-
     </>
   );
 }

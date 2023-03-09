@@ -1,4 +1,3 @@
-
 import ApexChart from 'react-apexcharts';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -28,19 +27,14 @@ function Columnchart(){
   }]
 
   const options = {
-    colors: ['#E0AD55','#827e57','#7ea3bc','#55666f','#c06f64','#a83c1e'],
-    plotOptions: {
-      bar:  {
-        columnWidth: '100%',
-        distributed: true,
-      },
-      chart: {
-        type: 'bar',
-      },
-   },
-   xaxis: {
+    chart: {
+      height: 'auto'
+    },
+    xaxis: {
+      position: "bottom",
       labels: {
-       rotate: -45
+        show: true,
+        rotate: -45
       },
    categories: post?.map((e) => {
         return e.Regiao

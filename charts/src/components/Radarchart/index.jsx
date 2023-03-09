@@ -1,4 +1,3 @@
-//import img1 from '../../img/targarye_shield.png'
 import ApexChart from 'react-apexcharts';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
@@ -59,5 +58,6 @@ function Radarchart(){
     <ApexChart options={options} series={series} type="radar" width={640} height={480}/>
   )
 }
+
 
 export default Radarchart;

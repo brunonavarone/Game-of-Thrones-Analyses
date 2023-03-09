@@ -2,7 +2,78 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+}
+
+.graficos section{
+  background-color: white;
+  position: relative;
+  border: solid 3px #000;
+  box-shadow: 10px 5px 20px rgb(102, 101, 101);
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+#logo_baratheon{
+  position: absolute;
+  z-index: -1;
+  right: 1030px;
+  top: -130px;
+  max-width: 160px;
+}
+
+#logo_greyjoy{
+  position: absolute;
+  z-index: -1;
+  left: 1030px;
+  top: -120px;
+  max-width: 170px;
+}
+
+#logo_martell{
+  position: absolute;
+  z-index: -1;
+  right: 1030px;
+  top: -130px;
+  max-width: 170px;
+}
+
+#logo_tyrell{
+  position: absolute;
+  z-index: -1;
+  left: 1030px;
+  top: -120px;
+  max-width: 170px;
+}
+
+#logo_lannister{
+  position: absolute;
+  z-index: -1;
+  right: 1030px;
+  top: -130px;
+  max-width: 170px;
+}
+
+#logo_targ{
+  position: absolute;
+  z-index: -1;
+  left: 1030px;
+  top: -120px;
+  max-width: 170px;
+}
+
+#logo_targ{
+  position: absolute;
+  z-index: -1;
+  right: 1030px;
+  top: -130px;
+  max-width: 170px;
+}
+
+.graficos section p{
+  font-size: 2.2em;
 }
 
 .graficos{
@@ -11,7 +82,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
-  gap: 160px;
+  gap: 100px;
 }
 
 .graficos p{
@@ -41,10 +112,11 @@
 }
 
 .container_perguntas{
-  /* border: solid 3px rebeccapurple; */
   width: 52vw;
   height: 50vh;
+  margin-top: 30px;
 }
+
 
 .container_perguntas a{
   text-decoration: none;
@@ -64,10 +136,16 @@
 .container_perguntas ul li{
   font-size: 1.6rem;
   list-style: none;
-  color: white;
-  background-color: rgb(47, 35, 207);
+  color: rgb(241, 239, 239);
+  background-color: rgb(31, 27, 87);
   padding: 10px;
   border-radius: 10px;
+}
+
+.container_perguntas ul li:hover{
+  color: rgb(31, 27, 87);
+  background-color: white;
+  box-shadow: 2px 2px 50px 1px rgb(255, 0, 0)
 }
 
 .container_perguntas ul li :hover{
@@ -90,3 +168,17 @@ footer{
   background-color: black;
   justify-content: center;
 }
+
+#grafico6{
+  margin-bottom: 50px;
+}
+
+.container_logos img{
+  max-width: 300px;
+  position: absolute;
+}
+
+#logo_baratheon{
+  top: 50px;
+}
+
