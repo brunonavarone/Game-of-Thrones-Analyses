@@ -36,14 +36,6 @@ Aqui vocês podem usar planilhas (Excel / Google), Metabase, Tableau, Power Bi, 
 
 
 
-## ◼ Perguntas e Respostas
-<details>
-<summary><b> 1. Qual a quantidade de casas por cada região?</b></summary>
-teste
-<details>
-
-
-
 ## ◼ EXTRAS
 ### ⇨ Utilize consultas com diversidade de operações: filtragem múltipla, agregação, subconsultas, ordenação, joins, etc.
 
