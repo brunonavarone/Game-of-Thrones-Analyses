@@ -15,7 +15,7 @@ import martell_logo from "./img/logos_background/House_Martell.svg_-470x470.png"
 import tyrell_logo from "./img/logos_background/House_Tyrell.svg_.png"
 import lannister_logo from "./img/logos_background/lannister.png"
 import targ_logo from "./img/logos_background/Targaryan.png"
-import arryn_logo from "./img/logos_background/aryn.png"
+
 
 function App() {
   return (

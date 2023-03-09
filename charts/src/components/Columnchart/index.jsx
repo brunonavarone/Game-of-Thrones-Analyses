@@ -32,14 +32,11 @@ function Columnchart(){
     },
     xaxis: {
       position: "bottom",
-      title: {
-        text:'Nome das regiões'
-      },
       labels: {
         show: true,
-        rotate: -60
+        rotate: -45
       },
-      categories: post?.map((e) => {
+   categories: post?.map((e) => {
         return e.Regiao
       }),
       tickPlacement: 'on'
@@ -47,15 +44,15 @@ function Columnchart(){
     yaxis: {
       title: {
         text: 'Quantidade de casas',
-      },
+        },
       tooltip: {
         enabled: true
-      }
+      },
     }
   }
 
   return(
-      <ApexChart options={options} series={series} type="bar"/>
+      <ApexChart options={options} series={series} type="bar" width={640} height={480}/>
     
   )
 }
