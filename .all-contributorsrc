@@ -32,6 +32,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "brunonavarone",
+      "name": "Bruno Henrique",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103217958?v=4",
+      "profile": "https://www.linkedin.com/in/bruno-henrique-travessa-984958236/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
