@@ -13,6 +13,15 @@ escolhidos por vocês, a fim de realizar uma
 apresentação com a exploração dos dados.
 
 
+## ◼ Perguntas e Respostas
+
+### 1. Qual a quantidade de casas por região?
+'''bash
+teste
+'''
+
+
+
 
   ##  <strong><samp>◼ Objetivos</samp></strong>
 
