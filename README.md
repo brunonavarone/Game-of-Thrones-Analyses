@@ -38,7 +38,13 @@ Aqui vocês podem usar planilhas (Excel / Google), Metabase, Tableau, Power Bi, 
 ## ◼ EXTRAS
 ### ⇨ Utilize consultas com diversidade de operações: filtragem múltipla, agregação, subconsultas, ordenação, joins, etc.
 
+## ◼ Perguntas e Respostas
 
+### 1. Qual a quantidade de casas por cada região?
+
+```bash
+arros
+'''
 
 ## Colaboradores ✨
 
