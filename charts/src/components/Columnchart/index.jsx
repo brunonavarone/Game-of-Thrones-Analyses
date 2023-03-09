@@ -32,9 +32,12 @@ function Columnchart(){
     },
     xaxis: {
       position: "bottom",
+      title: {
+        text:'Nome das regiões'
+      },
       labels: {
         show: true,
-        rotate: -45
+        rotate: -60
       },
       categories: post?.map((e) => {
         return e.Regiao

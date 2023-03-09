@@ -24,7 +24,7 @@ function Radarchart(){
       type: 'radar',
     },
     title: {
-      text: 'Basic Radar Chart'
+      text: 'Quantidade de episódios por temporada'
     },
     xaxis: {
       categories: post?.map((e) => {

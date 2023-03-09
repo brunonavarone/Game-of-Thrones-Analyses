@@ -54,11 +54,7 @@ export const epSeason = (_, res) =>{
 };
 
 export const melhoresSeasons = (_, res) =>{
-<<<<<<< HEAD
   const melhoresSeasons = `select season, avg(rating) as media from episódios where season = season group by season order by media desc;`;
-=======
-  const melhoresSeasons = `SELECT season, avg(Rating) as media from episódios group by Season order by media desc;`;
->>>>>>> fb81d6761826ee7fb34e5e54bf9476887b881b33
 
   db.query(melhoresSeasons, (err, data) =>{
     if(err) return res.json(err);

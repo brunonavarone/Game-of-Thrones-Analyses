@@ -2,54 +2,55 @@ import ApexChart from 'react-apexcharts';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function Columnchart(){
+function Columnchart3(){
   const [post, setPost] = useState();
 
 
   useEffect(()=> {
     axios
-    .get('http://localhost:8800/melhoresep')
+    .get('http://localhost:8800/melhoresseasons')
     .then((resposta) => {
       setPost(resposta.data)
     })
     .catch((erro) => console.log(erro));
   })
 
-  
-
   const series = [{
-    name: 'Servings',
+    name: 'Teste',
     data: post?.map((e) => {
-      return e.Rating;
+      return e.media
     })
   }]
 
   const options = {
+    chart: {
+      height: 'auto'
+    },
     xaxis: {
-      title: {
-        text: 'Temporada/Episódio'
-      },
+      position: "bottom",
       labels: {
+        show: true,
         rotate: -45
       },
       categories: post?.map((e) => {
-        return `${e.season}.${e.episode}`
+        return e.season
       }),
       tickPlacement: 'on'
     },
     yaxis: {
       title: {
-        text: 'Nota dos episódios',
+        text: 'Nota da temporada(média)',
       },
       tooltip: {
         enabled: true
-      },
+      }
     }
   }
 
   return(
-    <ApexChart options={options} series={series} type="bar" height={480}/>
+      <ApexChart options={options} series={series} type="bar"/>
+    
   )
 }
 
-export default Columnchart;
+export default Columnchart3;
