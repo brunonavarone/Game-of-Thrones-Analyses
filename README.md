@@ -42,9 +42,6 @@ Aqui vocês podem usar planilhas (Excel / Google), Metabase, Tableau, Power Bi, 
 
 ### 1. Qual a quantidade de casas por cada região?
 
-```bash
-arros
-'''
 
 ## Colaboradores ✨
 
@@ -57,7 +54,7 @@ arros
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GawrOkayun"><img src="https://avatars.githubusercontent.com/u/115713180?v=4?s=100" width="100px;" alt="GawrOkayun"/><br /><sub><b>GawrOkayun</b></sub></a><br /><a href="https://github.com/Diego-Fernando-Reis/Game-of-Thrones-Analyses/commits?author=GawrOkayun" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Diego-Fernando-Reis"><img src="https://avatars.githubusercontent.com/u/103158387?v=4?s=100" width="100px;" alt="Diego Fernando Reis Batista"/><br /><sub><b>Diego Fernando Reis Batista</b></sub></a><br /><a href="https://github.com/Diego-Fernando-Reis/Game-of-Thrones-Analyses/commits?author=Diego-Fernando-Reis" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/marcosjudd"><img src="https://avatars.githubusercontent.com/u/115227001?v=4?s=100" width="100px;" alt="marcosjudd"/><br /><sub><b>marcosjudd</b></sub></a><br /><a href="#design-marcosjudd" title="Design">🎨</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/bruno-henrique-travessa-984958236/"><img src="https://avatars.githubusercontent.com/u/103217958?v=4?s=100" width="100px;" alt="Bruno Henrique"/><br /><sub><b>Bruno Henrique</b></sub></a><br /><a href="https://github.com/Diego-Fernando-Reis/Game-of-Thrones-Analyses/commits?author=brunonavarone" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/bruno-henrique-travessa-984958236/"><img src="https://avatars.githubusercontent.com/u/103217958?v=4?s=100" width="100px;" alt="Bruno Henrique"/><br /><sub><b>Bruno Henrique</b></sub></a><br /><a href="https://github.com/Diego-Fernando-Reis/Game-of-Thrones-Analyses/commits?author=brunonavarone" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
