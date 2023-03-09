@@ -1,3 +1,4 @@
+//import img1 from '../../img/targarye_shield.png'
 import ApexChart from 'react-apexcharts';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
@@ -19,10 +20,31 @@ function Radarchart(){
   }]
 
   const options = {
+    plotOptions: {
+      radar: {
+        size: 200,
+        polygons: {
+          strokeColors: '#43464B',
+          fill: {
+            colors: ['#000']
+          }
+        }
+      }
+    },
+    colors: ['#A51D2F'],
+    markers: {
+      size: 4,
+      colors: ['#A51D2F'],
+      strokeColor: '#A51D2F',
+      strokeWidth: 2,
+    },
     chart: {
       height: 350,
       type: 'radar',
     },
+    fill: {
+      colors: ['#A11D2E']
+      },
     title: {
       text: 'Basic Radar Chart'
     },
@@ -34,7 +56,7 @@ function Radarchart(){
   }
 
   return(
-    <ApexChart options={options} series={series} type="radar" height={480}/>
+    <ApexChart options={options} series={series} type="radar" width={640} height={480}/>
   )
 }
 

@@ -1,3 +1,6 @@
+import img1 from '../../img/Casa_Stark.webp'
+import img2 from '../../img/Casa_Lannister.webp'
+import img3 from '../../img/Casa_Baratheon.webp'
 import ApexChart from 'react-apexcharts';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -35,15 +38,24 @@ function Piechart(){
 
   const options = {
       chart: {
-        width: 400,
-        type: 'pie'
+        width: 380,
+        type: 'pie',
       },
       labels: ['Maior que 60', 'Entre 55 e 60', 'Menor que 55'],
+      fill: {
+        type: 'image',
+        opacity: 0.85,
+        image: {
+           src: [img3,img2,img1],
+          width: 25,
+          imagedHeight: 25
+        },
+      },
       responsive: [{
         breakpoint: 480,
         options: {
           chart: {
-            width: 400
+            width: 200
           },
           legend: {
             position: 'bottom'
@@ -53,7 +65,7 @@ function Piechart(){
   }
 
   return(
-    <ApexChart class='piechart' options={options} series={series} height={480} type="pie"/>
+    <ApexChart options={options} series={series} type="pie" width={640} height={480}/>
   )
 }
 
