@@ -16,9 +16,9 @@ apresentação com a exploração dos dados.
 ## ◼ Perguntas e Respostas
 
 ### 1. Qual a quantidade de casas por região?
-'''bash
+```bash
 teste
-'''
+```
 
 
 
